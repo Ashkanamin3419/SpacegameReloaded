@@ -15,6 +15,11 @@
 		CDFD913423F0243D00E7ED76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFD913223F0243D00E7ED76 /* Main.storyboard */; };
 		CDFD913623F0243E00E7ED76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFD913523F0243E00E7ED76 /* Assets.xcassets */; };
 		CDFD913923F0243E00E7ED76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFD913723F0243E00E7ED76 /* LaunchScreen.storyboard */; };
+		CDFD914223F026AC00E7ED76 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFD914023F026AC00E7ED76 /* explosion.mp3 */; };
+		CDFD914323F026AC00E7ED76 /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFD914123F026AC00E7ED76 /* torpedo.mp3 */; };
+		CDFD914723F0276600E7ED76 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = CDFD914623F0276600E7ED76 /* spark.png */; };
+		CDFD914A23F0278900E7ED76 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = CDFD914823F0278900E7ED76 /* Explosion.sks */; };
+		CDFD914B23F0278900E7ED76 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = CDFD914923F0278900E7ED76 /* Starfield.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		CDFD913523F0243E00E7ED76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDFD913823F0243E00E7ED76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDFD913A23F0243E00E7ED76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFD914023F026AC00E7ED76 /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		CDFD914123F026AC00E7ED76 /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
+		CDFD914623F0276600E7ED76 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		CDFD914823F0278900E7ED76 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		CDFD914923F0278900E7ED76 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +75,13 @@
 				CDFD912C23F0243D00E7ED76 /* Actions.sks */,
 				CDFD912E23F0243D00E7ED76 /* GameScene.swift */,
 				CDFD913023F0243D00E7ED76 /* GameViewController.swift */,
+				CDFD914623F0276600E7ED76 /* spark.png */,
+				CDFD914823F0278900E7ED76 /* Explosion.sks */,
+				CDFD914923F0278900E7ED76 /* Starfield.sks */,
 				CDFD913223F0243D00E7ED76 /* Main.storyboard */,
 				CDFD913523F0243E00E7ED76 /* Assets.xcassets */,
+				CDFD914023F026AC00E7ED76 /* explosion.mp3 */,
+				CDFD914123F026AC00E7ED76 /* torpedo.mp3 */,
 				CDFD913723F0243E00E7ED76 /* LaunchScreen.storyboard */,
 				CDFD913A23F0243E00E7ED76 /* Info.plist */,
 			);
@@ -131,11 +146,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDFD914323F026AC00E7ED76 /* torpedo.mp3 in Resources */,
+				CDFD914223F026AC00E7ED76 /* explosion.mp3 in Resources */,
+				CDFD914B23F0278900E7ED76 /* Starfield.sks in Resources */,
 				CDFD913423F0243D00E7ED76 /* Main.storyboard in Resources */,
 				CDFD912B23F0243D00E7ED76 /* GameScene.sks in Resources */,
 				CDFD913623F0243E00E7ED76 /* Assets.xcassets in Resources */,
+				CDFD914723F0276600E7ED76 /* spark.png in Resources */,
 				CDFD913923F0243E00E7ED76 /* LaunchScreen.storyboard in Resources */,
 				CDFD912D23F0243D00E7ED76 /* Actions.sks in Resources */,
+				CDFD914A23F0278900E7ED76 /* Explosion.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
